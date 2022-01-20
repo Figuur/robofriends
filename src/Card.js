@@ -2,8 +2,8 @@ import React from 'react';
 
 const Card = () => {
     return (
-        <div>
-            <img src="robots" alt="" />
+        <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow5'>
+            <img src="https://robohash.org/test?200×200" alt="robots" />
             <div>
                 <h2>Jane Doe</h2>
                 <p>jane.doe@gmail.com</p>

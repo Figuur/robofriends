@@ -4,9 +4,15 @@ import './index.css';
 import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import robots from './robots';
 
-ReactDOM.render( <React.StrictMode> <Card /> </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render( 
+                <div>
+                  <Card id={ robots[0].id} name={robots[0].name} email={robots[0].email}/>  
+                  <Card /> 
+                  <Card /> 
+                  </div>               
+,  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
